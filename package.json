@@ -1,0 +1,37 @@
+{
+  "name": "containscord-cli",
+  "version": "1.0.0",
+  "description": "A CLI to use ContainScord.",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Everything seem okay\""
+  },
+  "bin": {
+    "csd": "./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaymun723/ContainScord-CLI.git"
+  },
+  "keywords": [
+    "CLI",
+    "ContainsScord",
+    "ContainScord-CLI",
+    "bot",
+    "discord",
+    "csd"
+  ],
+  "author": "Jaymun723",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaymun723/ContainScord-CLI/issues"
+  },
+  "homepage": "https://github.com/Jaymun723/ContainScord-CLI#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.11.0",
+    "download": "^6.2.5"
+  }
+}
