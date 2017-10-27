@@ -1,15 +1,33 @@
-# ContainScord-CLI
+<h1 align="center">Containscord-CLI</h1>
 
 > A CLI to use ContainScord !
 
-# Installation
+**Containscord-CLI** is a _command line interface_ to use [ContainScord](https://github.com/Jaymun723/ContainScord).
 
-Type `npm install -g containscord-cli`
+## Installation
 
-# Usage
+On windows:
 
-Type `csd` for help.
+```shell
+npm install -g containscord-cli
+```
 
-# License
+On linux:
 
-For more information read License.
+```bash
+sudo npm install -g containscord-cli
+```
+
+## Usage
+
+`csd help` | Display the help message.
+
+`csd new \<name\>` | Create a folder with containscord in.
+
+`csd init` | Create containsocrd files in your current directory.
+
+`csd config [opt]` | Configure containscord.(csd help config for more help.)
+
+`csd start` | Give instruction to start the bot.
+
+`csd commands` | Show commands of the bot.
