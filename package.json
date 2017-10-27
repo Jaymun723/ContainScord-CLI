@@ -1,13 +1,13 @@
 {
   "name": "containscord-cli",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A CLI to use ContainScord.",
-  "main": "./src/app.js",
+  "main": "./app.js",
   "scripts": {
     "test": "echo \"Everything seem okay\""
   },
   "bin": {
-    "csd": "./src/app.js"
+    "csd": "./app.js"
   },
   "repository": {
     "type": "git",
@@ -28,10 +28,7 @@
   },
   "homepage": "https://github.com/Jaymun723/ContainScord-CLI#readme",
   "dependencies": {
-    "chalk": "^2.1.0",
-    "co": "^4.6.0",
-    "co-prompt": "^1.0.0",
-    "commander": "^2.11.0",
+    "colors": "^1.1.2",
     "download": "^6.2.5"
   }
 }
